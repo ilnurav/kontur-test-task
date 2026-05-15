@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tree.xml - Описание некоторого дерева данных. Уровень вложенности не ограничен -->
+<node name="0">
+  <node name="1">
+    <node name="1">
+      <node name="2" />  <!-- Узел «A» -->
+      <node name="11" /> <!-- Узел «B» -->
+    </node>
+    <node name="22">     <!-- Узел «C» -->
+      <node name="33">
+        <node name="444" />
+      </node>
+    </node>
+  </node>
+  <node name="2">
+    <node name="3">
+      <node name="111" />
+      <node name="222">
+        <node name="44" />
+        <node name="55" />
+      </node>
+      <node name="333" />
+      <node name="555" />
+    </node>
+    <node name="4" />
+  </node>
+  <node name="3">
+    <node name="5" />
+    <node name="5" />
+  </node>
+</node>
